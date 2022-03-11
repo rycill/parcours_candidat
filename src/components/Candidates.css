@@ -1,0 +1,10 @@
+.candidateEven{
+    background-color: white;
+}
+.candidateOdd{
+    background-color: lightgray;
+}
+.header{
+    display: grid;
+    grid-template-columns:  repeat(4, minmax(200px, 1fr))
+}

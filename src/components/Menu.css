@@ -1,0 +1,15 @@
+
+.menu{
+    flex: 1;  
+    background-color: cadetblue;
+
+  }
+  .menu_items{
+    list-style-type: none;
+    text-align: justify;
+    font-weight: 500;
+  }
+  .menu_item{
+    padding: 0.3rem;
+  }
+  

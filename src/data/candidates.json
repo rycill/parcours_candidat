@@ -1,0 +1,44 @@
+[
+    {
+        "id":"1",
+        "name": "Michael",
+        "firstname" : "Scott",
+        "profil": ".NET",
+        "statut": "R1"
+    },
+    {
+        "id":"2",
+        "name": "Dupond",
+        "firstname" : "Machin",
+        "profil": "JAVA BACK",
+        "statut": "R2"
+    },
+    {
+        "id":"3",
+        "name": "Wai",
+        "firstname" : "Non",
+        "profil": "JAVA ANGULAR",
+        "statut": "R2"
+        
+    },{
+        "id":"4",
+        "name": "Lebowski",
+        "firstname" : "Jeffrey",
+        "profil": ".NET ANGULAR",
+        "statut": "R2"
+    },{
+        "id":"5",
+        "name": "Personne",
+        "firstname" : "Terence",
+        "profil": ".NET REACT",
+        "statut": "R2"
+    },{
+        "id":"6",
+        "name": "Connors",
+        "firstname" : "Phil",
+        "profil": "DEVOPS",
+        "statut": "R2"
+    }
+
+
+]

@@ -1,0 +1,34 @@
+{
+    "profils": {
+        "profils": [
+            {
+                "id": "1",
+                "titre": "JAVA BACK"
+            },
+            {
+                "id": "2",
+                "titre": "JAVA ANGULAR"
+            },
+            {
+                "id": "3",
+                "titre": "JAVA REACT"
+            },
+            {
+                "id": "4",
+                "titre": ".NET"
+            },
+            {
+                "id": "5",
+                "titre": ".NET ANGULAR"
+            },
+            {
+                "id": "6",
+                "titre": ".NET REACT"
+            },
+            {
+                "id": "7",
+                "titre": "DEVOPS"
+            }
+        ]
+    }
+}

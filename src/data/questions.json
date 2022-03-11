@@ -1,0 +1,17 @@
+{
+    "theme":"mon thème",
+    "questions":[
+        {
+            
+            
+            "question": "question 1?",
+            "expected": "résultat attendu",
+            "difficulty": 3
+        },
+        {
+            "question": "est ce que ça va?",
+            "expected": "oui",
+            "difficulty": 1
+        }
+    ] 
+}
