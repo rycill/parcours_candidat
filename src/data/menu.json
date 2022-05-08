@@ -1,10 +1,14 @@
 [
-    {
-        "path": "/",
-        "text": "Home"
-    },
-    {
-        "path": "/about",
-        "text": "About"
-    }
+  {
+    "path": "/",
+    "text": "Home"
+  },
+  {
+    "path": "/about",
+    "text": "About"
+  },
+  {
+    "path": "/r1",
+    "text": "R1"
+  }
 ]

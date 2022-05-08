@@ -1,0 +1,121 @@
+[
+  {
+    "theme": "Présentation : écoute, dynamisme, niveau de discours, élocution, restitution, synthèse",
+    "questions": [
+      {
+        "code": "q1",
+        "question": "Présentation synthétique en 2 mn / votre carte de visite",
+        "reponse attendue": "",
+        "ponderation": 1
+      },
+      {
+        "code": "q2",
+        "question": "Parlez moi du projet / de la mission qui vous a rendu le plus fier ou qui était particulièrement challengeant. Quel était le but de ce projet et comment avez vous fait pour le réaliser ?",
+        "reponse attendue": "",
+        "ponderation": 1
+      },
+      {
+        "code": "q3",
+        "question": "Pas de question associée - Note DYNAMISME",
+        "reponse attendue": "",
+        "ponderation": 1
+      },
+      {
+        "code": "q4",
+        "question": "Pas de question associée - Note ASPECT GENERAL",
+        "reponse attendue": "",
+        "ponderation": 1
+      }
+    ]
+  },
+  {
+    "theme": "Humilité",
+    "questions": [
+      {
+        "code": "q5",
+        "question": "Techniquement, quelle note vous donneriez-vous sur telle ou telle technologie ?",
+        "reponse attendue": "",
+        "ponderation": 3
+      }
+    ]
+  },
+  {
+    "theme": "Cohérence trajectoire",
+    "questions": [
+      {
+        "code": "q6",
+        "question": "Quel type de projet est susceptible de vous intéresser ?",
+        "reponse attendue": "",
+        "ponderation": 3
+      },
+      {
+        "code": "q7",
+        "question": "Qu'attendez-vous de votre futur employeur ?",
+        "reponse attendue": "",
+        "ponderation": 3
+      },
+      {
+        "code": "q8",
+        "question": "Ou vous voyez vous dans 5 ans ? OU quel est votre projet de carrière ",
+        "reponse attendue": "",
+        "ponderation": 3
+      }
+    ]
+  },
+  {
+    "theme": "souplesse",
+    "questions": [
+      {
+        "code": "q9",
+        "question": "Etes-vous fermé à un secteur d'activité ?",
+        "reponse attendue": "",
+        "ponderation": 3
+      }
+    ]
+  },
+  {
+    "theme": "Corporate",
+    "questions": [
+      {
+        "code": "q10",
+        "question": "Comment vous êtes vous impliqué dans votre précédente société ? Que pensez vous pouvoir apporter à Softeam ?",
+        "reponse attendue": "",
+        "ponderation": 3
+      }
+    ]
+  },
+  {
+    "theme": "Veille techno",
+    "questions": [
+      {
+        "code": "q11",
+        "question": "Qu'est ce que vous faites pour rester à jour ?",
+        "reponse attendue": "",
+        "ponderation": 3
+      },
+      {
+        "code": "q12",
+        "question": "Avez-vous des exemples de projet perso ?",
+        "reponse attendue": "",
+        "ponderation": 3
+      }
+    ]
+  },
+  {
+    "theme": "Anglais",
+    "questions": [
+      {
+        "code": "q13",
+        "question": "Could you please describe your last experience in a few words ?",
+        "reponse attendue": "",
+        "ponderation": 3
+      },
+      {
+        "code": "q14",
+        "question": "What would your friends tell me about you ? Or what would your former boss tell me about you ?",
+        "reponse attendue": "",
+        "ponderation": 3
+      }
+    ]
+  }
+]

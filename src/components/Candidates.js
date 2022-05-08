@@ -12,7 +12,7 @@ function Candidates({candidates}) {
             </div>
             </ul>
             <ul>
-                {candidates.map((c, idx) => <li className={idx%2 == 1 ? "candidateOdd" : "candidateEven"} key={c.id}><Candidate candidate={c}></Candidate></li>)}
+                {candidates.map((c, idx) => <li className={idx % 2 === 1 ? "candidateOdd" : "candidateEven"} key={c.id}><Candidate candidate={c}></Candidate></li>)}
             </ul>        
         </div>
     );
