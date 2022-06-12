@@ -4,6 +4,7 @@
         "name": "Michael",
         "firstname" : "Scott",
         "profil": ".NET",
+        "level": "Junior",
         "statut": "R1"
     },
     {
@@ -11,6 +12,7 @@
         "name": "Dupond",
         "firstname" : "Machin",
         "profil": "JAVA BACK",
+        "level": "Confirmé",
         "statut": "R2"
     },
     {
@@ -18,6 +20,7 @@
         "name": "Wai",
         "firstname" : "Non",
         "profil": "JAVA ANGULAR",
+        "level": "Confirmé",
         "statut": "R2"
         
     },{
@@ -25,18 +28,21 @@
         "name": "Lebowski",
         "firstname" : "Jeffrey",
         "profil": ".NET ANGULAR",
+        "level": "Confirmé",
         "statut": "R2"
     },{
         "id":"5",
         "name": "Personne",
         "firstname" : "Terence",
         "profil": ".NET REACT",
+        "level": "Senior",
         "statut": "R2"
     },{
         "id":"6",
         "name": "Connors",
         "firstname" : "Phil",
         "profil": "DEVOPS",
+        "level": "Expert",
         "statut": "R2"
     }
 

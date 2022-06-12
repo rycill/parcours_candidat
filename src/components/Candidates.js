@@ -8,6 +8,7 @@ function Candidates({candidates}) {
                 <span className="name">Nom</span>
                 <span className="firstname">Prénom</span>
                 <span className="specialties">Profil</span>
+                <span className="specialties">Niveau</span>
                 <span className="specialties">Statut</span>
             </div>
             </ul>

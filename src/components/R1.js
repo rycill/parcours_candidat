@@ -1,3 +1,4 @@
+import Note from './Note';
 import './R1.css';
 
 function R1({ items }) {
@@ -17,6 +18,10 @@ function R1({ items }) {
 									<label className="label">
 										Réponse :
 										<input className="response" type="text" name={question.code} />
+									</label>
+									<label className="label">
+										Note :
+										<Note name={"note" + question.code}/>
 									</label>
 								</div>
 							))}

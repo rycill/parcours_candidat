@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1",
+        "label": "Junior"
+    },
+    {
+        "id": "2",
+        "label": "Confirmé"
+    },
+    {
+        "id": "3",
+        "label": "Senior"
+    },
+    {
+        "id": "4",
+        "label": "Expert"
+    }
+]
