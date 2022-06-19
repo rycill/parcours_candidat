@@ -3,46 +3,52 @@
         "id":"1",
         "name": "Michael",
         "firstname" : "Scott",
-        "profil": ".NET",
-        "level": "Junior",
+        "techno1": ".NET",
+        "level1": "Junior",
         "statut": "R1"
     },
     {
         "id":"2",
         "name": "Dupond",
         "firstname" : "Machin",
-        "profil": "JAVA BACK",
-        "level": "Confirmé",
+        "techno1": "JAVA",
+        "level1": "Confirmé",
         "statut": "R2"
     },
     {
         "id":"3",
         "name": "Wai",
         "firstname" : "Non",
-        "profil": "JAVA ANGULAR",
-        "level": "Confirmé",
+        "techno1": "JAVA",
+        "level1": "Confirmé",
+        "techno2": "ANGULAR",
+        "level2": "Junior",
         "statut": "R2"
         
     },{
         "id":"4",
         "name": "Lebowski",
         "firstname" : "Jeffrey",
-        "profil": ".NET ANGULAR",
-        "level": "Confirmé",
+        "techno1": ".NET",
+        "level1": "Confirmé",
+        "techno2": "ANGULAR",
+        "level2": "Confirmé",
         "statut": "R2"
     },{
         "id":"5",
         "name": "Personne",
         "firstname" : "Terence",
-        "profil": ".NET REACT",
-        "level": "Senior",
+        "techno1": ".NET",
+        "level1": "Senior",
+        "techno2": "REACT",
+        "level2": "Confirmé",
         "statut": "R2"
     },{
         "id":"6",
         "name": "Connors",
         "firstname" : "Phil",
-        "profil": "DEVOPS",
-        "level": "Expert",
+        "techno1": "DEVOPS",
+        "level1": "Expert",
         "statut": "R2"
     }
 

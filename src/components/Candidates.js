@@ -7,9 +7,12 @@ function Candidates({candidates}) {
             <div className="header">
                 <span className="name">Nom</span>
                 <span className="firstname">Prénom</span>
-                <span className="specialties">Profil</span>
-                <span className="specialties">Niveau</span>
+                <span className="specialties">Technologie 1</span>
+                <span className="specialties">Niveau Technologie 1</span>
+                <span className="specialties">Technologie 2</span>
+                <span className="specialties">Niveau Technologie 2</span>
                 <span className="specialties">Statut</span>
+                <span className="specialties"></span>
             </div>
             </ul>
             <ul>

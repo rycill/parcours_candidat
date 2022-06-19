@@ -3,27 +3,19 @@
         "profils": [
             {
                 "id": "1",
-                "titre": "JAVA BACK"
+                "titre": "JAVA"
             },
             {
                 "id": "2",
-                "titre": "JAVA ANGULAR"
+                "titre": "ANGULAR"
             },
             {
                 "id": "3",
-                "titre": "JAVA REACT"
+                "titre": "REACT"
             },
             {
                 "id": "4",
                 "titre": ".NET"
-            },
-            {
-                "id": "5",
-                "titre": ".NET ANGULAR"
-            },
-            {
-                "id": "6",
-                "titre": ".NET REACT"
             },
             {
                 "id": "7",

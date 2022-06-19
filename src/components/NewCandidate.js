@@ -10,16 +10,34 @@ function NewCandidate({ candidate }) {
         <input type="text" name="firstname" className="field"/>
         <label>Prénom</label>
         <input type="text" name="famillyname" className="field"/>
-        <label>Profil</label>
+        <label>Technologie 1</label>
         <select name="profil" className="field">
-          <option value="">--Choisissez un profil--</option>
+          <option value="">--Choisissez une technologie--</option>
           {technos.profils.profils.map((techno) => (
             <option key={techno.id} value={techno.id}>
               {techno.titre}
             </option>
           ))}
         </select>
-        <label>Niveau</label>
+        <label>Niveau Technologie 1</label>
+        <select name="niveau" className="field">
+          <option value="">--Choisissez un niveau--</option>
+          {levels.map((level) => (
+            <option key={level.id} value={level.id}>
+              {level.label}
+            </option>
+          ))}
+        </select>
+        <label>Technologie 2</label>
+        <select name="profil" className="field">
+          <option value="">--Choisissez une technologie--</option>
+          {technos.profils.profils.map((techno) => (
+            <option key={techno.id} value={techno.id}>
+              {techno.titre}
+            </option>
+          ))}
+        </select>
+        <label>Niveau Technologie 2</label>
         <select name="niveau" className="field">
           <option value="">--Choisissez un niveau--</option>
           {levels.map((level) => (
