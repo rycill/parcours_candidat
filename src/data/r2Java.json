@@ -1,0 +1,148 @@
+[
+    {
+        "theme": "Connaissances théoriques & objet",
+        "questions": [
+            {
+                "code": "q1",
+                "question": "Citez au moins 3 design-Patterns",
+                "reponse attendue": "Singleton, Factory, Builder, Prototype, Adapter, Composite, Decorator, Facade, Proxy, Command, Interpreter, Iterator, Observer, State, Strategy, Visitor",
+                "niveau": "all",
+                "mandatory": "yes",
+                "ponderation": 1
+            },
+            {
+                "code": "q2",
+                "question": "Quelles sont les trois grandes familles de design pattern ?",
+                "reponse attendue": "Pattern de création, de structuration et de comportement",
+                "niveau": "2",
+                "mandatory": "no",
+                "ponderation": 1
+            },
+            {
+                "code": "q3",
+                "question": "Connaissez-vous les principes Solid ?",
+                "reponse attendue": "S pour Single Responsability : Une classe ne doit avoir qu’une seule responsabilité\nO pour Open Close Principle : Une classe doit être ouverte à l’extension, fermée à la modification\nL pour Liskov substitution Principle : Un classe mère peut remplacer une classe fille sans modifier le fonctionnement du code\nI pour Interface segregation : Si le code fait choses distinctes, il faut 2 interfaces\nD pour Dependency Injection : On code avec les Interfaces, pas les implémentations",
+                "niveau": "1",
+                "mandatory": "yes",
+                "ponderation": 1
+            },
+            {
+                "code": "q4",
+                "question": "Qu’est-ce le TDD ?",
+                "reponse attendue": "Test Driven Development => écriture des tests avant de coder le reste.",
+                "niveau": "1",
+                "mandatory": "yes",
+                "ponderation": 1
+            },
+            {
+                "code": "q5",
+                "question": "Expliquez le concept d’interface ",
+                "reponse attendue": "Une interface est un ensemble de signatures de méthodes, qui sont par essence abstraites et publiques/constantes. Une interface est déclarée avec le mot clé « interface ».\nLes constantes d’une interface sont accessibles à toutes les classes implémentant l’interface.",
+                "niveau": "1",
+                "mandatory": "yes",
+                "ponderation": 1
+            },
+            {
+                "code": "q6",
+                "question": "Définir le polymorphisme, comment le met-on en place ?",
+                "reponse attendue": "Déf : redéfinir une méthode dans une classe fille pour modifier le comportement",
+                "niveau": "2",
+                "mandatory": "yes",
+                "ponderation": 1
+            },
+            {
+                "code": "q7",
+                "question": "Différence entre polymorphisme et surcharge",
+                "reponse attendue": "La surcharge : la méthode dans une même classe avec des paramètres différents",
+                "niveau": "2",
+                "mandatory": "yes",
+                "ponderation": 1
+            },
+            {
+                "code": "q8",
+                "question": "Expliquez une recherche dichotomique",
+                "reponse attendue": "La recherche dichotomique : rechercher dans une liste triée. On va diviser par 2 la zone de recherche et on vérifie si on est au-dessus ou au-dessous. Puis on continue.",
+                "niveau": "2",
+                "mandatory": "no",
+                "ponderation": 1
+            },
+            {
+                "code": "q9",
+                "question": "Citez les règles d’utilisation des classes abstraites ",
+                "reponse attendue": "Une classe doit être abstraite si une de ses méthodes est abstraite\nUne classe abstraite n’est pas instanciable (on ne peut pas utiliser les constructeurs d’une classe abstraite et donc on ne peut pas créer d’objet ou d’instance de cette classe).\nUne classe qui hérite d’une classe abstraite ne devient concrète que si elle implémente toutes les méthodes abstraites de la classe dont elle hérite.\nUne méthode abstraite n’est pas implémentée, mais doit être implémentée dans les sous-classes non abstraites.\nUne classe abstraite peut contenir des méthodes non abstraites et des déclarations d’attributs ordinaires.",
+                "niveau": "2",
+                "mandatory": "yes",
+                "ponderation": 1
+            },
+            {
+                "code": "q10",
+                "question": "Qu’est-ce que le BDD ? ",
+                "reponse attendue": "Behavior Driven Development. Développement (test) par le comportement.",
+                "niveau": "2",
+                "mandatory": "yes",
+                "ponderation": 1
+            },
+            {
+                "code": "q11",
+                "question": "Quel est le langage utilisé en BDD ?",
+                "reponse attendue": "Gherkin (principalement utilisé dans Cucumber pour java)",
+                "niveau": "2",
+                "mandatory": "no",
+                "ponderation": 1
+            },
+            {
+                "code": "q12",
+                "question": "Quelles sont les méthodes que l’on peut utiliser sur un service Restful ?",
+                "reponse attendue": "PUT, POST, DELETE, GET, PATCH",
+                "niveau": "all",
+                "mandatory": "yes",
+                "ponderation": 1
+            },
+            {
+                "code": "q13",
+                "question": "Quelle est la différence entre un POST et un PUT ?",
+                "reponse attendue": "POST créé un objet dans la BDD\nPUT permet d’apporter des modifications à un objet déjà existant",
+                "niveau": "all",
+                "mandatory": "yes",
+                "ponderation": 1
+            },
+            {
+                "code": "q14",
+                "question": "Comment fonctionne le « Garbage Collector ? ",
+                "reponse attendue": "C’est un outil du Framework qui permet de nettoyer les objets du programme",
+                "niveau": "all",
+                "mandatory": "yes",
+                "ponderation": 1
+            },
+            {
+                "code": "q15",
+                "question": "Quel est son rôle ? ",
+                "reponse attendue": "C’est un outil du Framework qui permet de nettoyer les objets du programmeC’est une fonctionnalité de la JVM permettant de gérer sa mémoire. Il a pour rôle de :\n- S’assurer que les objets « vivants » (c’est-à-dire accessibles depuis un thread vivant) ne seront pas supprimés\n- Libérer l’espace mémoire occupé par les objets non atteignables par un thread vivant\n- Allouer de l’espace aux objets nouvellement créés ;\n- Compacter la mémoire dans la mesure du possible",
+                "niveau": "all",
+                "mandatory": "yes",
+                "ponderation": 1
+            }
+        ]
+    },
+    {
+        "theme": "Connaissance du langage",
+        "questions": [
+            {
+                "code": "q16",
+                "question": "Citez quelques méthodes de la classe Object ?",
+                "reponse attendue": "toString(), getClass(), equals(), hashcode(),\n clone(), wait(), wait(time), notify(), notifyAll(), finalize()",
+                "niveau":"all",
+                "mandatory": "yes",
+                "ponderation": 1
+            },
+            {
+                "code": "q17",
+                "question": "Quel est le lien entre hashcode et equals ?",
+                "reponse attendue": "Deux objets égaux doivent avoir le même hashcode, deux objets avec le même hashcode ne sont pas forcément égaux",
+                "niveau": "1",
+                "mandatory": "yes",
+                "ponderation": 1
+            }
+        ]
+    }
+]

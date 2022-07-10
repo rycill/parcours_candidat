@@ -1,0 +1,115 @@
+[
+    {
+        "theme": "Présentation : écoute, dynamisme, niveau de discours, élocution, restitution, synthèse",
+        "questions": [
+            {
+                "code": "q1",
+                "question": "Qu'est ce que vous avez retenu du 1er rdv ?",
+                "reponse attendue": "",
+                "ponderation": 1
+            },
+            {
+                "code": "q2",
+                "question": "Pouvez-vous en 1 minute me faire une carte de visite de votre parcours professionnel ?",
+                "reponse attendue": "",
+                "ponderation": 1
+            },
+            {
+                "code": "q3",
+                "question": "Pas de question associée - Note DYNAMISME",
+                "reponse attendue": "",
+                "ponderation": 1
+            },
+            {
+                "code": "q4",
+                "question": "Pas de question associée - Note ASPECT GENERAL",
+                "reponse attendue": "",
+                "ponderation": 1
+            }
+        ]
+    },
+    {
+        "theme": "Cohérence trajectoire de carrière",
+        "questions": [
+            {
+                "code": "q5",
+                "question": "De quoi êtes vous le plus fier dans votre parcours, votre carrière ? Quel projet plus abouti dans votre parcours ? Pourquoi celui-là, quelles difficultés vous avez rencontré ?",
+                "reponse attendue": "",
+                "ponderation": 3
+            }
+        ]
+    },
+    {
+        "theme": "Organisation",
+        "questions": [
+            {
+                "code": "q6",
+                "question": "Votre 1er jour de mission, on vous laisse sans indications précises, qu'est ce que vous faites ?",
+                "reponse attendue": "",
+                "ponderation": 3
+            },
+            {
+                "code": "q7",
+                "question": "CP très bordelique, liste longue comme le bras, qu'est-ce que vous faites ?",
+                "reponse attendue": "",
+                "ponderation": 3
+            }
+        ]
+    },
+    {
+        "theme": "Humilité",
+        "questions": [
+            {
+                "code": "q8",
+                "question": "Auchoix, suivant la séniorité : \n Un développeur de l’équipe junior contredit votre code. Comment réagissez-vous ? \n Vous travaillez avec un collègue beaucoup plus expérimenté que vous qui se trompe sur son code, comment lui expliquez-vous son erreur ?",
+                "reponse attendue": "",
+                "ponderation": 3
+            }
+        ]
+    },
+    {
+        "theme": "Curiosité / Veille",
+        "questions": [
+            {
+                "code": "q9",
+                "question": "Pouvez-vous me citer un nouveau langage de programmation ? ",
+                "reponse attendue": "",
+                "ponderation": 3
+            },
+            {
+                "code": "q10",
+                "question": "Est-ce que vous travaillez sur un projet perso en ce moment ?",
+                "reponse attendue": "",
+                "ponderation": 3
+            }
+        ]
+    },
+    {
+        "theme": "Raisonnement",
+        "questions": [
+            {
+                "code": "q11",
+                "question": "Un escargot tombe d'un puit de 10m. Chaque jour il remonte de 3m durant la journée et redescend de 2m durant la nuit. Au bout de combien de temps arrive-t-il à sortir du trou ?",
+                "reponse attendue": "",
+                "ponderation": 3
+            }
+        ]
+    },
+    {
+        "theme": "Anglais",
+        "questions": [
+            {
+                "code": "q12",
+                "question": "Could you please describe your last experience in a few words ?",
+                "reponse attendue": "",
+                "ponderation": 3
+            },
+            {
+                "code": "q13",
+                "question": "What would your friends tell me about you ? Or what would your former boss tell me about you ?",
+                "reponse attendue": "",
+                "ponderation": 3
+            }
+        ]
+    }
+]
