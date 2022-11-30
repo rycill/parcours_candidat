@@ -1,24 +1,35 @@
 import Candidate from "./Candidate";
-import './Candidates.css';
-function Candidates({candidates}) {
-    return (
-        <div>
-            <ul>
-            <div className="header">
-                <span className="name">Nom</span>
-                <span className="firstname">Prénom</span>
-                <span className="specialties">Technologie 1</span>
-                <span className="specialties">Niveau Technologie 1</span>
-                <span className="specialties">Technologie 2</span>
-                <span className="specialties">Niveau Technologie 2</span>
-                <span className="specialties">Statut</span>
-                <span className="specialties"></span>
-            </div>
-            </ul>
-            <ul>
-                {candidates.map((c, idx) => <li className={idx % 2 === 1 ? "candidateOdd" : "candidateEven"} key={c.id}><Candidate candidate={c}></Candidate></li>)}
-            </ul>        
-        </div>
-    );
+import "./Candidates.css";
+function Candidates({ candidates }) {
+  return (
+    <div>
+      <table className="table">
+        <thead>
+          <tr>
+            <th scope="col">Nom</th>
+            <th scope="col">Prénom</th>
+            <th scope="col">Tech 1</th>
+            <th scope="col">Niv. T 1</th>
+            <th scope="col">Tech 2</th>
+            <th scope="col">Niv. T 2</th>
+            <th scope="col">Statut</th>
+          </tr>
+        </thead>
+        <tbody>
+          {candidates.map((c, idx) => (
+            <tr
+              className={
+                (idx % 2 === 1 ? "candidateOdd" : "candidateEven") +
+                " candidate"
+              }
+              key={c.id}
+            >
+              <Candidate candidate={c}></Candidate>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
 }
 export default Candidates;
