@@ -1,20 +1,20 @@
-.section{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: lightskyblue;
-    padding: 1rem;
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(210, 210, 210);
+  padding: 1rem;
 }
-#formNewCandidate{
-    /*border: 1px black solid;*/
-    display: grid;
-    grid-gap: 0.5rem;
-    margin-right: 20%;
-    margin-left: 2rem;
+#formNewCandidate {
+  /*border: 1px black solid;*/
+  display: grid;
+  grid-gap: 0.5rem;
+  margin-right: 20%;
+  margin-left: 2rem;
 }
-#submit{
-    width: 7rem;
+#submit {
+  width: 7rem;
 }
 .field {
-    width: 15rem;
+  width: 15rem;
 }
