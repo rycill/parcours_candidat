@@ -1,5 +1,5 @@
-import technos from "../data/technos.json";
-import levels from "../data/levels.json";
+import technos from "../../../data/technos.json";
+import levels from "../../../data/levels.json";
 import "./NewCandidate.css";
 
 function NewCandidate({ candidate }) {
@@ -7,9 +7,9 @@ function NewCandidate({ candidate }) {
     <div className="section" name="newCandidate">
       <form id="formNewCandidate">
         <label>Nom</label>
-        <input type="text" name="firstname" className="field"/>
+        <input type="text" name="firstname" className="field" />
         <label>Prénom</label>
-        <input type="text" name="famillyname" className="field"/>
+        <input type="text" name="famillyname" className="field" />
         <label>Technologie 1</label>
         <select name="profil" className="field">
           <option value="">--Choisissez une technologie--</option>

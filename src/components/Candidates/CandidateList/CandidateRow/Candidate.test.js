@@ -1,6 +1,6 @@
 import { render, unmountComponentAtNode } from "react-dom";
 import { act } from "react-dom/test-utils";
-import Candidate from "./Candidate";
+import Candidate from "./CandidateRow/Candidate";
 let container = null;
 beforeEach(() => {
   container = document.createElement("div");

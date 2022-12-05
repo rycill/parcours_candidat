@@ -1,4 +1,4 @@
-import Candidate from "./Candidate";
+import Candidate from "./CandidateRow";
 import "./Candidates.css";
 function Candidates({ candidates }) {
   return (
