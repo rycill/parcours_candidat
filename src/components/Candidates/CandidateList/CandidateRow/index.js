@@ -20,6 +20,8 @@ function Candidate({ candidate }) {
       <td className="specialties">{candidate.level2}</td>
       <td className="specialties">{candidate.statut}</td>
       {button}
+      {/*
+       */}
     </>
   );
 }

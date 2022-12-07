@@ -5,14 +5,17 @@ function Candidates({ candidates }) {
     <div>
       <table className="table">
         <thead>
-          <tr>
+          <tr className="header">
             <th scope="col">Nom</th>
             <th scope="col">Prénom</th>
             <th scope="col">Tech 1</th>
-            <th scope="col">Niv. T 1</th>
+            <th scope="col">Niv. T1</th>
             <th scope="col">Tech 2</th>
-            <th scope="col">Niv. T 2</th>
+            <th scope="col">Niv. T2</th>
             <th scope="col">Statut</th>
+            <th scope="col"></th>
+            {/*
+             */}
           </tr>
         </thead>
         <tbody>

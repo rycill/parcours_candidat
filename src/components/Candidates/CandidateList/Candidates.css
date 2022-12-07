@@ -1,10 +1,12 @@
-.candidateEven{
-    background-color: white;
+.candidateEven {
+  background-color: white;
 }
-.candidateOdd{
-    background-color: lightgray;
+.candidateOdd {
+  background-color: lightgray;
 }
-.header{
-    display: grid;
-    grid-template-columns:  repeat(8, minmax(200px, 1fr))
+.header {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(200px, 1fr));
+  padding: 0.2rem;
+  margin: 0.1rem;
 }
