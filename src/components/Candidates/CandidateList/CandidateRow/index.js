@@ -1,7 +1,8 @@
 import "./Candidate.css";
 import R1Button from "./r1Button";
 import R2Button from "./r2Button";
-function Candidate({ candidate }) {
+import { getCandidateProfile } from "./candidateFn";
+export const Candidate = ({ candidate }) => {
   const statut = candidate.statut;
   let button;
   if (statut === "R1") {
@@ -14,15 +15,10 @@ function Candidate({ candidate }) {
     <>
       <td className="name">{candidate.name}</td>
       <td className="firstname">{candidate.firstname}</td>
-      <td className="specialties">{candidate.techno1}</td>
-      <td className="specialties">{candidate.level1}</td>
-      <td className="specialties">{candidate.techno2}</td>
-      <td className="specialties">{candidate.level2}</td>
+      <td className="profile">{getCandidateProfile(candidate)}</td>
       <td className="specialties">{candidate.statut}</td>
       {button}
-      {/*
-       */}
     </>
   );
-}
+};
 export default Candidate;

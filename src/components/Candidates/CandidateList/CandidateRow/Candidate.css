@@ -1,9 +1,7 @@
-.candidate{
-    padding: 0.2rem;
-    margin: 0.1rem;
-    display: grid;
-    grid-template-columns:  repeat(8, minmax(200px, 1fr))
-}
-.candidate{
-    border: solid 1px lightgray;
+.candidate {
+  padding: 0.2rem;
+  margin: 0.1rem;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(200px, 1fr));
+  border: solid 1px lightgray;
 }

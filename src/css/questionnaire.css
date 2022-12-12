@@ -11,17 +11,18 @@
   margin-left: 2rem;
 }
 
-.underline {
-  text-decoration: underline;
+.theme {
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
 
 .question {
+  margin-top: 2rem;
   margin-left: 2rem;
 }
 
 .label {
   margin-left: 2rem;
-  text-decoration: underline;
 }
 
 .response {

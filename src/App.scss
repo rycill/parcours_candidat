@@ -1,0 +1,62 @@
+@mixin headers {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#root {
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: "Roboto", Arial, Courier;
+}
+
+.App {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+}
+
+.content {
+  background-color: white;
+}
+
+.App-logo {
+  float: left;
+  padding-top: 0.8rem;
+  width: 285px;
+  height: 15vmin;
+  pointer-events: none;
+  background: url("images/logo-white.png") no-repeat 0 0;
+}
+
+.App-title {
+  padding-top: 1.5rem;
+  float: left;
+  font-size: 1.3rem;
+}
+
+input[type="submit"] {
+  padding: 0.5rem;
+}
+
+.App-header {
+  height: 5rem;
+  padding-left: 0.8rem;
+  background: #323b42;
+  color: white;
+  @include headers;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @include headers;
+}
+
+.page-title {
+  padding-left: 0.8rem;
+}

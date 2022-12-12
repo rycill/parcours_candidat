@@ -21,22 +21,51 @@ function R2({ items }) {
   const techno1 = location.state.techno1;
   return (
     <div>
-      <h2>Page R2</h2>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">
+            Active
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Link
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Link
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+          >
+            Disabled
+          </a>
+        </li>
+      </ul>
+
+      <h3 className="page-title">Questionnaire R2</h3>
       <div>
         <form className="questionnaireForm">
           {items.map((item) => (
             <div>
-              <h4 className="underline">{item.theme}</h4>
+              <h4 className="theme">{item.theme}</h4>
               {item.questions.map((question) => (
                 <div>
                   <h5 className="question">{question.question}</h5>
                   <label className="label">
-                    Réponse :
-                    <input
+                    Réponse : <br />
+                    <textarea
+                      rows="5"
+                      cols="600"
                       className="response"
-                      type="text"
                       name={question.code}
-                    />
+                    ></textarea>
                   </label>
                   <label className="label">
                     Note :
